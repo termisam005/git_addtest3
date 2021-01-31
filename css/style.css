@@ -342,6 +342,9 @@ header{
 .tab_go.contact{
 	border-bottom:2px solid #6ac3ff;
 }
+.tab_go:{
+	border:none;
+}
 
 
 
