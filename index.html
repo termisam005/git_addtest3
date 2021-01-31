@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta  http-equiv="Content-Type"  content="text/html;charset=utf-8"/> 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Sample01 - dashboard</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="./fontawesome-free-5.13.0-web/css/all.css">
+  <link rel="stylesheet" type="text/css" href="./css/helper.css" />
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+</head>
+
+<body>
+
+<div class="wrap">
+	<div class="Dash_body">
+
+		<header>
+			<div class="header_in">
+				<div class="header_left">
+					<h1 class="logo">
+						<a href="./index.html"><img src="./images/logo-spin.png" /></a>
+					</h1>
+					<a class="go_right">
+						<i class="fas fa-bars"></i>
+					</a>
+					<a class="go_right">
+						<i class="fas fa-search"></i>
+					</a>
+				</div><!-- header_left -->
+				<div class="header_right">
+					<div class="right_div">
+						<a class="go_right">
+							<i class="fas fa-comments"></i>
+						</a>
+					</div><!-- right_div -->
+					<div class="right_div">
+						<a class="go_right">
+							<i class="fas fa-bell"></i>
+						</a>
+					</div>
+					<div class="right_div">
+						<a class="go_right">
+							<span class="user">관리자</span>
+							<p class="face">
+								<img src="./images/128.jpg" />
+							</p>
+						</a>
+					</div><!-- right_div -->
+				</div><!-- header_right -->
+			</div><!-- header_in -->
+		</header>
+
+		<aside class="dash_aside">
+			<div class="side_conts">
+				<h2 class="left_name">MY TAXI</h2>
+				<ul class="left_menu">
+					<li>
+						<a href="">
+							<i class="fas fa-chart-bar"></i>
+							<span class="menu_name">대시보드</span>
+							<i class="fas fa-chevron-left"></i>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="fas fa-clock"></i>
+							<span class="menu_name">실시간 관제</span>
+							<i class="fas fa-chevron-left"></i>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="fas fa-file-alt"></i>
+							<span class="menu_name">이력보기</span>
+							<i class="fas fa-chevron-left"></i>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="fas fa-street-view"></i>
+							<span class="menu_name">기사설정</span>
+							<i class="fas fa-chevron-left"></i>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="far fa-calendar-check"></i>
+							<span class="menu_name">배차설정</span>
+							<i class="fas fa-chevron-left"></i>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="fas fa-cog"></i>
+							<span class="menu_name">설정</span>
+							<i class="fas fa-chevron-left"></i>
+						</a>
+					</li>
+				</ul><!-- left_menu -->
+			</div><!-- side_conts -->
+		</aside><!-- dash_aside -->
+
+		<section class="top_line">
+			<div class="container-fluid">
+				<h2 class="top_title">매출정보</h2>
+			</div>
+		</section><!-- top_line -->
+
+		<section class="content">
+
+			<div class="row">
+				<div class="col-md-4">
+					<dl class="dsconts">
+						<dt><h3>총 매출</h3></dt>
+						<dd>
+							<section class="chart_center">
+								<article class="chart_body">
+									<img src="./images/chart_ex1.png" />
+								</article><!-- chart_body -->
+								<article class="chart_text">
+									<dl class="loan_txt">
+										<dt><i class="fas fa-circle"></i></dt>
+										<dd>
+											<h5>현금대출</h5>
+											<span>337,000 won</span>
+										</dd>
+									</dl>
+									<dl class="loan_txt">
+										<dt><i class="fas fa-circle"></i></dt>
+										<dd>
+											<h5>카드대출</h5>
+											<span>988,000 won</span>
+										</dd>
+									</dl>
+								</article>
+							</section><!-- chart_center -->
+						</dd>
+						<dd class="bd-top1">
+							<section class="chart_center">
+								<article class="chart_text">
+									<a href="" class="special">View Full Report</a>
+								</article><!-- chart_text -->
+							</section><!-- chart_center -->
+						</dd>
+					</dl><!-- dsconts -->
+				</div><!-- col-md-4 -->
+
+				<div class="col-md-4">
+					<dl class="dsconts">
+						<dt><h3>총 운행</h3></dt>
+						<dd>
+							<section class="chart_center">
+								<article class="chart_body">
+									<img src="./images/chart_ex2.png" />
+								</article><!-- chart_body -->
+							</section><!-- chart_center -->
+						</dd>
+						<dd class="bd-top1">
+							<section class="chart_center">
+								<article class="chart_text">
+									<dl class="loan_txt drive">
+										<dt><i class="fas fa-square"></i></dt>
+										<dd>
+											<h5>운행</h5>
+										</dd>
+									</dl>
+									<dl class="loan_txt">
+										<dd>
+											<span>118 km</span>
+										</dd>
+									</dl>
+								</article><!-- chart_text -->
+								<article class="chart_text">
+									<dl class="loan_txt space">
+										<dt><i class="fas fa-square"></i></dt>
+										<dd>
+											<h5>공차</h5>
+										</dd>
+									</dl>
+									<dl class="loan_txt">
+										<dd>
+											<span>32 km</span>
+										</dd>
+									</dl>
+								</article><!-- chart_text -->
+							</section><!-- chart_center -->
+						</dd>
+					</dl><!-- dsconts -->
+				</div><!-- col-md-4 -->
+
+				<div class="col-md-4">
+					<dl class="dsconts">
+						<dt><h3>주간 현황</h3></dt>
+						<dd class="p-t-60 p-b-60">
+							<section class="chart_center">
+								<article class="jfiend">
+									<select class="form-control">
+										<option>거리</option><option>거리</option><option>거리</option>
+									</select>
+								</article><!-- jfiend -->
+								<article class="chart_body">
+									<img src="./images/chart_ex3.png" />
+								</article>
+								<article class="chart_text">
+								</article>
+							</section><!-- chart_center -->
+						</dd>
+					</dl><!-- dsconts -->
+				</div><!-- col-md-4 -->
+			</div><!-- row -->
+
+			<div class="row">
+				<div class="col-md-12">
+					<dl class="dsconts">
+						<dt><h3>기사별 매출현황</h3></dt>
+						<dd>
+							<section class="chart_center">
+								<article class="jfiend">
+									<div class="tab_group">
+										<button type="button" class="tab_go contact">일간</button>
+										<button type="button" class="tab_go">주간</button>
+										<button type="button" class="tab_go">월간</button>
+									</div>
+								</article><!-- jfiend -->
+								<article class="chart_body">
+									<img class="w-100" src="./images/chart_ex4.png" />
+								</article><!-- chart_body -->
+							</section><!-- chart_center -->
+						</dd>
+					</dl>
+				</div><!-- col-md-12 -->
+			</div><!-- row -->
+
+		</section><!-- content -->
+
+	</div><!-- Dash_body -->
+</div><!-- wrap -->
+
+</body>
+
+ </html>
